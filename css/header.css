@@ -1,12 +1,12 @@
 
 .logo{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 100px;
+    max-height: 100px;
 }
 header{
     top: 0;
     width: 100%;
-    background-color: #1e1e1e;
+    background-color: #000000;
 }
 li{
     list-style: none;
@@ -100,7 +100,7 @@ a{
         top: 100px;
         gap: 0;
         flex-direction: column;
-        background-color: var(--color-background);
+        background-color: #00000070;
         width: 100%;
         text-align: center;
         transition: 0.3s;

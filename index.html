@@ -1,24 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Hotjar Tracking Code for CodeBuzz -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3517308,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/assets/images-exam/golden-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="A blog by developers, for developerss" />
     <meta
       name="keywords"
-      content="HTML, CSS, JavaScript, CodeBuzz, Blog, Tech, Web Development, Web Design, Frontend, Backend, Fullstack, Software Engineer, Software Developer, Software, Engineer, Developer, Programming, Code, Coding, Learn, Learning, Tutorial, Tutorials, Home Page"
+      content="Tech, Web Development, Web Design, Frontend, Backend, Fullstack, Software Engineer, Software Developer, Software, Engineer, Developer, Programming, Code, Coding, Portfolio"
     />
     <meta name="author" content="AlexVedt" />
     <link rel="stylesheet" href="/style.css" />
@@ -40,7 +29,7 @@ referrerpolicy="no-referrer"
     <script type="module" defer src="/js/app.js"></script>
     <script type="module" defer src="/js/footer.js"></script>
     <script type="module" defer src="/js/carousel.js"></script>
-    <title>CodeBuzz</title>
+    <title></title>
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -51,16 +40,16 @@ referrerpolicy="no-referrer"
 <div class="container">
   <div class="subcontainer">
     <nav class="navbar">
-      <a href="/index.html" class="nav-branding" ><img class="logo" src="/assets/images-exam/white-trans-logo.png" alt="Logo-CodeBuzz"></a>
+      <a href="/index.html" class="nav-branding" ><img class="logo" src="/assets/logo/alexvedtlogo.png" alt="Logo-Alexvedt"></a>
       <ul class="nav-menu">
         <li class="nav-item">
-          <a href="/index.html">Home</a>
+          <a href="#about">Home</a>
         </li>
         <li class="nav-item">
-          <a href="/about.html">About</a>
+          <a href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a href="/contact.html">Contact</a>
+          <a href="#footer">Contact</a>
         </li>
       </ul>
       <div class="hamburger">
@@ -74,92 +63,97 @@ referrerpolicy="no-referrer"
     </header>
     <main class="l-main">
       <div class="main-container">
-        <div class="headerimage">
-          <img class="hero-image animate__animated animate__bounceInDown" src="/assets/images-exam/header-with-logos.jpg" alt="header image with logo and slogan">
-        </div>
-      <article role="doc-introduction">
-      </article>
-      <div class="blog-heading">
-        <h2 class="header-text">FEATURED POSTS</h2>
-      </div>
-      <div class="glide">
-        <div class="glide__track" data-glide-el="track">
-          <ul class="glide__slides" id="glide-slides-js">
-            <li class="loading-container">
-              <div class="lds-ellipsis">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="glide__arrows" data-glide-el="controls">
-          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-            <i class="fa-solid fa-arrow-left"></i>
-          </button>
-          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </div>
-      </div>
-</div>
-</div>
-<div class="blog-heading">
-  <h2 class="header-text">My Recents Posts</h2>
-  </div>
-  <section role="search" class="search container">
-    <div class="search-fields">
-      <label for="filter">Filter by Date:</label>
-      <select name="" id="filter">
-        <option value="">All</option>
-        <option value="oldest">Oldest to Newest</option>
-        <option value="newest">Newest to Oldest</option>
-      </select>
-      <div class="search-fields">
-        <label for="search">Search:</label>
-        <input type="text" id="search" placeholder="how to center a div?">
-      </div>
-      <div class="search-fields">
-        <label for=swiper-wrapper>Sort A-Z:</label>
-        <select id="sort">
-          <option value="">No Sorting</option>
-          <option value="asc">A-Z</option>
-          <option value="desc">Z-A</option>
-        </select>
-      </div>
-    </div>
-  </section>
-      <section role="list" id="results" class="blog">
-        <li class="loading-container">
-          <div class="lds-ellipsis">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <section id="about" class="about-section">
+          <div class="about-container">
+            <div class="about-text slide">
+              <h1 class="blog-title slide">Hi, I'm AlexVedt</h1>
+              <p class="blog-text slide">
+                I'm a Frontend Developer based in Norway. I have a passion for
+                web design and create stuff. I´m also interested in working throughout the full stack eventually and learning new technologies. I'm currently studying Frontend Development at Noroff. 
+              </p>
+            </div>
+            <div class="about-img blog-img slide">
+              <img class="portrait" src="/assets/logo/podkast.jpeg" alt="AlexVedt">
+            </div>
+
           </div>
-        </li>
-      </section>
-      <div id="showBtn" class="btn-showall"></div>
-      <footer class="l-footer">
+        </section>
+
+
+        <section id="projects" class="projects-section">
+
+          <div class="projects-container">
+
+            <div class="blog-box slide">
+              <div id="card" class="blog-img card">
+                <img src="/assets/logo/codebuzzsmall.png" alt="Codebuzz-Website">
+              </div>
+              <div class="blog-text">
+                <span>Created / May 2023</span>
+                <a href="https://codebuzz.netlify.app/" class="blog-title">Code Buzz</a>
+                <p>Exam 2nd year of FED @ Noroff. Blog with API from AirTable.</p>
+                <a href="https://github.com/Noroff-FED-Campus-Assignments/fed1-exam-alexvedt"><img class="github-logo" src="/assets/logo/github-mark-white.png" alt="GithubLogo"></a>
+                <a href="https://codebuzz.netlify.app/"><i class="fas fa-link"></i> Live Demo</a>
+              </div>
+            </div>
+
+
+
+            <div class="blog-box slide ">
+              <div id="card" class="blog-img card">
+                <img src="/assets/logo/rickapi.png" alt="Rick & Morty -Website">
+              </div>
+              <div class="blog-text">
+                <span>Created / March 2023</span>
+                <a href="https://stalwart-sundae-377311.netlify.app/" class="blog-title">Rick & Morty API</a>
+                <p>API CALL task 2nd semester</p>
+                <a href="https://github.com/Noroff-FED-Campus-Assignments/fed-y1-javascript-course-assignment_list-detail-with-api-alexvedt"><img class="github-logo" src="/assets/logo/github-mark-white.png" alt="GithubLogo"></a>
+                <a href="https://stalwart-sundae-377311.netlify.app/"><i class="fas fa-link"></i> Live Demo</a>
+              </div>
+            </div>
+
+
+              <div class="blog-box slide ">
+              <div id="card" class="blog-img card">
+                <img src="/assets/logo/CSM.png" alt="Community Science Museum -Website">
+              </div>
+              <div class="blog-text">
+                <span>Created / November 2022</span>
+                <a href="https://dreamy-moxie-d1beb3.netlify.app/" class="blog-title">Community Science Museum</a>
+                <p>Exam 1st semester of FED @ Noroff</p>
+                <a href="https://github.com/alexvedt/SP-CSM"><img class="github-logo" src="/assets/logo/github-mark-white.png" alt="GithubLogo"></a>
+                <a href="https://dreamy-moxie-d1beb3.netlify.app/"><i class="fas fa-link"></i> Live Demo</a>
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>    
+        </section>
+</div>
+
+
+      <footer id="footer" class="l-footer">
         <div class="footer-container">
           <div id="text"><div id="text">
-            <div class="line">
-              <p class="word">I'm</p>
-              <p class="word">AlexVedt</p>
+            <div class="line slide">
+              <p class="word slide">I'm</p>
+              <p class="word slide">AlexVedt</p>
             </div>
         
-            <div class="line">
-              <p class="word">Find Me</p>
-              <p class="word">@</p>
+            <div class="line slide">
+              <p class="word slide">Find Me</p>
+              <p class="word slide">@</p>
             </div>
           
-            <div class="line">
-              <p class="word">Github</p>
+            <div class="line slide">
+              <p class="word slide">Github</p>
             </div>
             
-            <div class="line">
+            <div class="line slide">
               <a 
                  id="channel-link" 
                  href="https://github.com/alexvedt" 
@@ -171,10 +165,12 @@ referrerpolicy="no-referrer"
             </div>
           </div>
         </div>
-        <small>Terms and conditions apply.
+        <small class="slide">Terms and conditions apply.
         </small>
       </div>
     </footer>
+
+
     </main>
   </body>
 </html>

@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
 --color-background: #1e1e1e;
---blue: #00405e;
---green: #005925;
-
-
+--blue: #00aeff;
+--green: #227846;
+--red: #ec5c5c;
+--font-family: 'Inter', sans-serif;
 
 }
